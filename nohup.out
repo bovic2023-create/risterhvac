@@ -1,0 +1,14 @@
+/var/www/html/risterhvac/risterhvac.py:48: SyntaxWarning: invalid escape sequence '\s'
+  processing_handler= '''<div id="output"></div>
+Traceback (most recent call last):
+  File "/var/www/html/risterhvac/risterhvac.py", line 1070, in <module>
+    all_pages_protocol()
+  File "/var/www/html/risterhvac/risterhvac.py", line 1029, in all_pages_protocol
+    county_web_contents1, all_table_data1, iframe= city_url_data(city_contents_data[naimah], city_embedded_data[naimah], state_abbr_short, population_limit, 'All Pages', [], site_root)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/risterhvac/risterhvac.py", line 753, in city_url_data
+    while True:
+          ^^^^
+KeyboardInterrupt
+/var/www/html/risterhvac/risterhvac.py:48: SyntaxWarning: invalid escape sequence '\s'
+  processing_handler= '''<div id="output"></div>
